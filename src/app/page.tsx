@@ -1,7 +1,9 @@
-export default function Home() {
+export default function HomePage() {
   return (
-    <main>
-      <div>Hello world!</div>
+    <main className="flex min-h-screen items-center justify-center">
+      <h1 className="text-4xl font-semibold">
+        Creative Portfolio
+      </h1>
     </main>
   );
 }
